@@ -8,8 +8,8 @@ meta:
 
 project:
   title: "Design Talks"
-  type: "Slideshows & Stuff"
-  logo: "/assets/images/projects/conspiracy/logo.jpg"
+  type: "Design Project"
+  logo: "/assets/images/projects/talks/logo.jpg"
   tech: "InDesign, Kickstarter"
   year: "2017"
 
