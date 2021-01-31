@@ -1,19 +1,21 @@
 html {
 	font-size: 62.5%;
+	height: 100vh;
 }
 
 body {
-	background: $color-white;
-	color: $color-black;
+	min-height: 100vh;
+	background: $color-offwhite;
+	color: $color-offblack;
 	font-family: $font-poppins;
 	font-size: 1.8em;
 	line-height: 1.6;
-	font-weight: 600;
+	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
+	position: relative;
 }
 
-h1,
-.h1 {
+h1 {
 	color: $color-black;
 	font-size: 2.7rem;
 	font-weight: 600;
@@ -21,21 +23,18 @@ h1,
 	margin: 0;
 }
 
-h2,
-.h2 {	
-	color: $color-silver-chalice;
+h2 {	
+	color: $color-grey;
 	display: block;
-	font-family: $font-lekton;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: .2rem;
+	font-family: $font-poppins;
+    font-size: 2.5rem;
+    font-weight: 300;
     line-height: 1;
     margin: 0 0 1rem;
     text-transform: uppercase;
 }
 
-h3,
-.h3 {
+h3 {
 	color: $color-black;
 	font-family: $font-poppins;
     font-size: 1.8rem;
@@ -49,7 +48,7 @@ p {
 }
 
 a {
-	color: $color-black;
+	color: $color-blue;
 	text-decoration: none;
 }
 
@@ -85,7 +84,7 @@ code {
 	background: $color-white;
 	border: 1px solid $color-silver-chalice;
 	border-radius: 3px;
-	font-family: $font-lekton;
+	font-family: $font-opensans;
 	font-size: 1.5rem;	
 	padding: .1rem .4rem;
 
@@ -99,7 +98,7 @@ dl {
 
 	dt,
 	dd {
-		font-family: $font-lekton;		
+		font-family: $font-opensans;		
 	}
 
 	dt {
@@ -144,7 +143,7 @@ table {
 
 	th,
 	td {
-		font-family: $font-lekton;
+		font-family: $font-opensans;
 		font-weight: 400;
 		text-align: left;
 		padding: .5rem 1rem;
