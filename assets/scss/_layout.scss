@@ -1,9 +1,27 @@
 .container {
 	display: block;
 	margin: 0 auto;
-	max-width: 70em;
+	max-width: 280px;
 	padding: 0 3rem;
 	@include clearfix;
+}
+
+@media (min-width: $breakpoint-medium) {
+	.container {
+		max-width: 580px;
+	}
+}
+
+@media (min-width: $breakpoint-large) {
+	.container {
+		max-width: 880px;
+	}
+}
+
+@media (min-width: $breakpoint-xlarge) {
+	.container {
+		max-width: 1180px;
+	}
 }
 
 .header {
@@ -30,36 +48,48 @@
 }
 
 .projects {
-	padding: 0 0 5rem;
+	padding: 0 0 9rem;
 }
 
 .projects-list {
+	margin-left: -1rem;
+	margin-right: -1rem;
+	
 	@media (min-width: $breakpoint-small) {
-		margin-left: -1.5rem;
-		margin-right: -1.5rem;
 		@include clearfix;
 
 		li {
 			float: left;
-			width: 50%;
+			width: 100%;
 		}
 	}
 
 	@media (min-width: $breakpoint-medium) {
+		li {
+			width: 50%;
+		}
+	}
+
+	@media (min-width: $breakpoint-large) {
+		li {
+			width: 33.3333%;
+		}
+	}
+
+	@media (min-width: $breakpoint-xlarge) {
 		li {
 			width: 25%;
 		}
 	}
 
 	li {
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
 	}
 
 	a {
 		display: block;
 		position: relative;
-		margin: 0 1.5rem;
-		// width: 100%;
+		margin: 0 1rem;
 
 		&:hover {
 			.img-wrapper {
@@ -90,15 +120,15 @@
 		}
 
 		.project-title {
-			font-size: 2.4rem;
-			padding: 0.6rem 0.9rem 0;
+			font-size: 2.3rem;
+			padding: 0.5rem 0.8rem 0;
 			text-transform: uppercase;
 			line-height: 2.8rem;
 			font-weight: 600;
 		}
 
 		.project-desc {
-			padding: 0 0.9rem 0.6rem;
+			padding: 0 0.8rem 0.5rem;
 			font-size: 1.3rem;
 			font-weight: 300;
 			text-transform: lowercase;
@@ -235,7 +265,7 @@ footer {
 	color: $color-grey;
 	width: 100%;
 	bottom: 0;
-	padding: 3rem 0;
+	padding: 5rem 0 3rem;
 	position: absolute;
 }
 
