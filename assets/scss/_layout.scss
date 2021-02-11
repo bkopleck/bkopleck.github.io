@@ -40,6 +40,19 @@
 	}
 }
 
+.icon-list {
+
+	li {
+		float:left;
+		margin-top: 0.5rem;
+		margin-left: 1.5rem;
+	}
+
+	img {
+		width: 30px;
+	}
+}
+
 .content {
 	position: relative;
 	top: 0;
@@ -107,7 +120,7 @@
 		position: absolute;
 		bottom: 0px;
 		background-color: rgba(0, 0, 0, 0.5);
-		backdrop-filter: blur(4px);
+		backdrop-filter: blur(10px);
 		height: 25%;
 		width: 100%;
 
