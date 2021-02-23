@@ -3,21 +3,25 @@
 <head>
 	<title>{{ page.project.title }} / {{ site.author }}</title>
 	<meta name="author" content="{{ site.author }}">
-	<meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
+	<meta name="description" content="{{ page.project.desc }}">
 	<meta name="keywords" content="{{ page.meta.keywords }}">
 	{% include head.html %}
 </head>
 <body>
 	{% include header.html %}
 	<main class="content">
+		{% assign content_arr = page.content | split: "<!-- FACTSHEET END -->" %}
 		<section class="project">
 			<div class="container">
+				<h2 class="title">{{ page.project.title }}</h2>
 				<aside>
-					<h2>Factsheet</h2>
+					<div class="factsheet">
+						{{ content_arr[0] }}
+					</div>
 				</aside>
 				<article>
-					<h1>{{ page.project.title }}</h1>
-					{{ page.content }}
+					{{ content_arr[1] }}
+					<p><a href="/" target="_self">Back to home</a></p>
 				</article>
 			</div>
 		</section>

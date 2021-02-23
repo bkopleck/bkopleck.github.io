@@ -4,11 +4,17 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Jekyll, Pineapple"
+  keywords: "Design, Talks, Presentation"
 
 project:
   title: "Design Talks"
   desc: "My game design-related presentations given at local game dev meetups"
   logo: "/assets/images/projects/talks/logo.jpg"
 ---
-<p>Pineapples are delicious tropical fruit. There are more than a hundred varieties of pineapples that grow in varying sizes. The plant is indigenous to South America and is said to originate from the area between southern Brazil and Paraguay.</p>
+
+# Design
+Brian Kopleck  
+
+<!-- FACTSHEET END -->
+
+This page is under construction.

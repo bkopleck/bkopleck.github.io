@@ -14,11 +14,11 @@
 	<main class="content">
 		<section class="projects">
 			<div class="container">
-				<h2>Portfolio</h2>
+				<h2 class=title>Portfolio</h2>
 				<ul class="projects-list">
 					{% for item in site.categories.projects reversed %}
 						<li>
-							<a href="{{ item.url | prepend: site.baseurl }}">
+							<a href="{{ item.url | prepend: site.baseurl }}" target="_self">
 								<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
 								<div class="project-info">
 									<div class="project-title">{{ item.project.title }}</div>
