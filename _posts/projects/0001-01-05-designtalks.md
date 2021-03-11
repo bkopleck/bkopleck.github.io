@@ -12,9 +12,28 @@ project:
   logo: "/assets/images/projects/talks/logo.jpg"
 ---
 
-# Design
-Brian Kopleck  
+Talks
+- Naming Things
+- Consequences of Design
+- Why People Love Dark Souls
+- What is a Game?
+- The Tenets of Good Competition
+- Choice in Games
+- How to Analyze Games
+
+Links
+- Naming Things twitter thread
 
 <!-- FACTSHEET END -->
 
 This page is under construction.
+
+### Naming Things
+
+### Consequences of Design
+
+### What is a Game?
+
+### The Tenets of Good Competition
+
+### Choice in Games

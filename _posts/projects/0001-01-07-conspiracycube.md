@@ -12,8 +12,15 @@ project:
   logo: "/assets/images/projects/cube/logo.jpg"
 ---
 
-# Design
-Brian Kopleck  
+Roles
+- Game Design
+
+Tools
+- Google Sheets
+- Illustrator _(for box design)_
+
+Links
+- CubeCobra
 
 <!-- FACTSHEET END -->
 
