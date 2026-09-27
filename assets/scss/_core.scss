@@ -1,6 +1,12 @@
+// Crossfade between pages instead of flashing blank (Chrome, Edge, Safari)
+@view-transition {
+	navigation: auto;
+}
+
 html {
 	font-size: 62.5%;
 	height: 100vh;
+	background: $color-offwhite;
 }
 
 body {
@@ -40,6 +46,7 @@ a {
 img {
 	display: block;
 	max-width: 100%;
+	height: auto;
 }
 
 hr {
