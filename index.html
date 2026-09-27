@@ -19,7 +19,7 @@
 					{% for item in site.categories.projects reversed %}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}" target="_self">
-								<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+								<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" loading="lazy" />
 								<div class="project-info">
 									<div class="project-title">{{ item.project.title }}</div>
 									<div class="project-desc">{{ item.project.desc }}</div>
@@ -31,7 +31,5 @@
 			</div>
 		</section>
 	</main>
-	{% include footer.html %}
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>
